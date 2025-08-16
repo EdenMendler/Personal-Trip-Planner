@@ -105,7 +105,7 @@ router.post(
   }
 );
 
-// התחברות - הקוד המתוקן והמלא
+
 router.post(
   "/login",
   [
@@ -247,3 +247,4 @@ router.get("/stats", requireAuth, async (req, res) => {
 router.requireAuth = requireAuth;
 
 module.exports = router;
+
